@@ -340,3 +340,14 @@ plans:
                 options:
                     path: unpackaged/post/v3.4
                     unmanaged: False
+    
+    v3.5:
+        slug: v3_5
+        title: RIO Education - Upgrade to v3.5
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.5
+                    unmanaged: False
