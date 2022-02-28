@@ -39,7 +39,7 @@ tasks:
 
 plans:
     v2.3:
-        slug: v2.3
+        slug: v2_3
         title: RIO Education - Upgrade to v2.3
         tier: additional
         steps:
