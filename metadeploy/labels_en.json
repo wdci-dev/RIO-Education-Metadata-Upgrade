@@ -1,0 +1,92 @@
+{
+    "product": {
+        "title": {
+            "message": "RIO Education - Upgrades",
+            "description": "name of product"
+        }
+    },
+    "plan:upgrade": {
+        "title": {
+            "message": "Upgrade RIO Education",
+            "description": "title of installation plan"
+        }
+    },
+    "steps": {
+        "Deploy unpackaged/post/upgrade - v2.10": {
+            "message": "Deploy unpackaged/post/upgrade - v2.10",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.10.8": {
+            "message": "Deploy unpackaged/post/upgrade - v2.10.8",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.11": {
+            "message": "Deploy unpackaged/post/upgrade - v2.11",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.12": {
+            "message": "Deploy unpackaged/post/upgrade - v2.12",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.13": {
+            "message": "Deploy unpackaged/post/upgrade - v2.13",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.14": {
+            "message": "Deploy unpackaged/post/upgrade - v2.14",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.3": {
+            "message": "Deploy unpackaged/post/upgrade - v2.3",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.4": {
+            "message": "Deploy unpackaged/post/upgrade - v2.4",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.5": {
+            "message": "Deploy unpackaged/post/upgrade - v2.5",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.6": {
+            "message": "Deploy unpackaged/post/upgrade - v2.6",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.7": {
+            "message": "Deploy unpackaged/post/upgrade - v2.7",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.8": {
+            "message": "Deploy unpackaged/post/upgrade - v2.8",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v2.9": {
+            "message": "Deploy unpackaged/post/upgrade - v2.9",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.0": {
+            "message": "Deploy unpackaged/post/upgrade - v3.0",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.1": {
+            "message": "Deploy unpackaged/post/upgrade - v3.1",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.2": {
+            "message": "Deploy unpackaged/post/upgrade - v3.2",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.3": {
+            "message": "Deploy unpackaged/post/upgrade - v3.3",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.4": {
+            "message": "Deploy unpackaged/post/upgrade - v3.4",
+            "description": "title of installation step"
+        },
+        "Deploy unpackaged/post/upgrade - v3.5": {
+            "message": "Deploy unpackaged/post/upgrade - v3.5",
+            "description": "title of installation step"
+        }
+    }
+}
