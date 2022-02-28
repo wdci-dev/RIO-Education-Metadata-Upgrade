@@ -3,7 +3,7 @@
     
     <types>
         <members>hed__Course__c-rio_ed__RIOEducation Course Layout</members>
-        <members>rio_ed__Discipline_Requirement__c-rio_ed__RIOEducation Discipline Requirement (Course) Layout</members>
+        <members>rio_ed__Discipline_Requirement__c-rio_ed__RIOEducation Discipline Requirement %28Course%29 Layout</members>
         <members>rio_ed__PE_Pathway_Status__c-rio_ed__RIOEducation PE Pathway Layout</members>
         <members>rio_ed__Program_Discipline__c-rio_ed__RIOEducation Program Discipline Layout</members>
         <members>rio_ed__Program_Enrollment_Status__mdt-rio_ed__RIOEducation Program Enrollment Status Layout</members>
