@@ -87,6 +87,16 @@
         "Deploy unpackaged/post/upgrade - v3.5": {
             "message": "Deploy unpackaged/post/upgrade - v3.5",
             "description": "title of installation step"
+        },
+        "RIO Education v2.3 - Layouts and Configs": {
+            "message": "RIO Education v2.3 - Layouts and Configs",
+            "description": "title of installation step"
+        }
+    },
+    "plan:v2.3": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.3",
+            "description": "title of installation plan"
         }
     }
 }

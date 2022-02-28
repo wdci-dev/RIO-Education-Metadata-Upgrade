@@ -33,8 +33,12 @@ tasks:
 
     deploy_post:
         ui_options:
-            01_layouts_and_configs:
+            v2.3_01_layouts_and_configs:
                 name: RIO Education v2.3 - Layouts and Configs
+            v3.5_01_layouts:
+                name: RIO Education v3.5 - Layouts
+            v3.5_02_custompicklists:
+                name: RIO Education v3.5 - Custom Picklists
             
 
 plans:
@@ -47,4 +51,15 @@ plans:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v2.3
+                    unmanaged: False
+    
+    v3.5:
+        slug: v3_5
+        title: RIO Education - Upgrade to v3.5
+        tier: primary
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.5
                     unmanaged: False
