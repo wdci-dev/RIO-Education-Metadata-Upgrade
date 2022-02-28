@@ -91,11 +91,25 @@
         "RIO Education v2.3 - Layouts and Configs": {
             "message": "RIO Education v2.3 - Layouts and Configs",
             "description": "title of installation step"
+        },
+        "RIO Education v3.5 - Layouts": {
+            "message": "RIO Education v3.5 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.5 - Custom Picklists": {
+            "message": "RIO Education v3.5 - Custom Picklists",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
         "title": {
             "message": "RIO Education - Upgrade to v2.3",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.5": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.5",
             "description": "title of installation plan"
         }
     }

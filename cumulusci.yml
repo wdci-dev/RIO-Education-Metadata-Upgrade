@@ -35,11 +35,112 @@ tasks:
         ui_options:
             v2.3_01_layouts_and_configs:
                 name: RIO Education v2.3 - Layouts and Configs
+            v2.5_01_layouts_and_configs:
+                name: RIO Education v2.5 - Layouts and Configs
+            v2.5_02_01_student_community_security_setup:
+                name: RIO Education v2.5 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.5_02_02_faculty_community_security_setup:
+                name: RIO Education v2.5 - Faculty Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.5_02_03_combined_community_security_setup:
+                name: RIO Education v2.5 - Combined Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.6_01_redu_security_setup:
+                name: RIO Education v2.6 - REDU Security Setup
+            v2.6_02_layouts:
+                name: RIO Education v2.6 - Layouts
+            v2.6_03_01_faculty_community_security_setup:
+                name: RIO Education v2.6 - Faculty Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.7_01_redu_custommetadata:
+                name: RIO Education v2.7 - REDU Custom Metadata
+            v2.7_02_layouts:
+                name: RIO Education v2.7 - Layouts
+            v2.7_03_eda_security_setup:
+                name: RIO Education v2.7 - EDA Security Setup
+            v2.7_04_redu_security_setup:
+                name: RIO Education v2.7 - REDU Security Setup
+            v2.7_05_01_faculty_community_security_setup:
+                name: RIO Education v2.7 - Faculty Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.9_01_redu_custommetadata:
+                name: RIO Education v2.9 - REDU Custom Metadata
+            v2.9_02_custompicklist:
+                name: RIO Education v2.9 - Custom Picklist
+            v2.9_03_layout:
+                name: RIO Education v2.9 - Layout
+            v2.9_04_01_student_community_security_setup:
+                name: RIO Education v2.9 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.9_04_03_combined_community_security_setup:
+                name: RIO Education v2.9 - Combined Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.10_01_redu_lightning_page_asssignment:
+                name: RIO Education v2.10 - REDU Lightning Page Assignment
+            v2.10_02_custompicklist:
+                name: RIO Education v2.10 - Custom Picklist
+            v2.10_03_layout:
+                name: RIO Education v2.10 - Layout
+            v2.10_04_01_student_community_security_setup:
+                name: RIO Education v2.10 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.10_04_03_combined_community_security_setup:
+                name: RIO Education v2.10 - Combined Community Security Setup
+                is_required: False
+                is_recommended: False
+            v2.10_05_appointment_scheduler_automation:
+                name: RIO Education v2.10 - Appointment Scheduler Automation
+            v2.10.8_01_custompicklist:
+                name: RIO Education v2.10.8 - Custom Picklist
+            v2.11_01_layout:
+                name: RIO Education v2.11 - Layout
+            v2.11_02_custompicklist:
+                name: RIO Education v2.11 - Custom Picklist
+            v2.11_03_obsolete_components:
+                name: RIO Education v2.11 - Obsolete Components
+            v2.12_01_layouts:
+                name: RIO Education v2.12 - Layouts
+            v2.12_02_custompicklist:
+                name: RIO Education v2.12 - Custom Picklist
+            v2.13_01_custompicklist:
+                name: RIO Education v2.13 - Custom Picklist
+            v2.14_01_custompicklist:
+                name: RIO Education v2.14 - Custom Picklist
+            v2.14_02_edafieldsecurity:
+                name: RIO Education v2.14 - EDA Field Security
+            v3.0_01_layouts:
+                name: RIO Education v3.0 - Layouts
+            v3.1_01_layouts:
+                name: RIO Education v3.1 - Layouts
+            v3.1_02_custompicklist:
+                name: RIO Education v3.1 - Custom Picklist
+            v3.1_03_01_student_community_security_setup:
+                name: RIO Education v3.1 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.2_01_layouts:
+                name: RIO Education v3.2 - Layouts
+            v3.2_02_student_community_security_setup:
+                name: RIO Education v3.2 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.3_01_layouts:
+                name: RIO Education v3.3 - Layouts
+            v3.4_01_layouts:
+                name: RIO Education v3.4 - Layouts
             v3.5_01_layouts:
                 name: RIO Education v3.5 - Layouts
             v3.5_02_custompicklists:
                 name: RIO Education v3.5 - Custom Picklists
-            
 
 plans:
     v2.3:
@@ -53,10 +154,197 @@ plans:
                     path: unpackaged/post/v2.3
                     unmanaged: False
     
+    v2.4:
+        slug: v2_4
+        title: RIO Education - Upgrade to v2.4
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.4
+                    unmanaged: False
+
+    v2.5:
+        slug: v2_5
+        title: RIO Education - Upgrade to v2.5
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.5
+                    unmanaged: False
+
+    v2.6:
+        slug: v2_6
+        title: RIO Education - Upgrade to v2.6
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.6
+                    unmanaged: False
+
+    v2.7:
+        slug: v2_7
+        title: RIO Education - Upgrade to v2.7
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.7
+                    unmanaged: False
+
+    v2.8:
+        slug: v2_8
+        title: RIO Education - Upgrade to v2.8
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.8
+                    unmanaged: False
+
+    v2.9:
+        slug: v2_9
+        title: RIO Education - Upgrade to v2.9
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.9
+                    unmanaged: False
+
+    v2.10:
+        slug: v2_10
+        title: RIO Education - Upgrade to v2.10
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.10
+                    unmanaged: False
+
+    v2.10.8:
+        slug: v2_10_8
+        title: RIO Education - Upgrade to v2.10.8
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.10.8
+                    unmanaged: False
+
+    v2.11:
+        slug: v2_11
+        title: RIO Education - Upgrade to v2.11
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.11
+                    unmanaged: False
+
+    v2.12:
+        slug: v2_12
+        title: RIO Education - Upgrade to v2.12
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.12
+                    unmanaged: False
+
+    v2.13:
+        slug: v2_13
+        title: RIO Education - Upgrade to v2.13
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.13
+                    unmanaged: False
+
+    v2.14:
+        slug: v2_14
+        title: RIO Education - Upgrade to v2.14
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v2.14
+                    unmanaged: False
+    
+    v3.0:
+        slug: v3_0
+        title: RIO Education - Upgrade to v3.0
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.0
+                    unmanaged: False
+    
+    v3.1:
+        slug: v3_1
+        title: RIO Education - Upgrade to v3.1
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.1
+                    unmanaged: False
+    
+    v3.2:
+        slug: v3_2
+        title: RIO Education - Upgrade to v3.2
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.2
+                    unmanaged: False
+    
+    v3.3:
+        slug: v3_3
+        title: RIO Education - Upgrade to v3.3
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.3
+                    unmanaged: False
+    
+    v3.4:
+        slug: v3_4
+        title: RIO Education - Upgrade to v3.4
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.4
+                    unmanaged: False
+
     v3.5:
         slug: v3_5
         title: RIO Education - Upgrade to v3.5
-        tier: primary
+        tier: additional
         steps:
             1:
                 task: deploy_post
