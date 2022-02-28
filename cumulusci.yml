@@ -5,7 +5,15 @@ project:
         name: RIO-Education-Metadata-Upgrade
         api_version: '52.0'
     git:
+        prefix_release: rel/
+        repo_url: https://github.com/wdci-dev/RIO-Education-Metadata-Upgrade
+        default_branch: master
     source_format: sfdx
+
+sources:
+    latest_release:
+        github: https://github.com/wdci-dev/RIO-Education-Metadata-Upgrade
+        release: latest
 
 tasks:
     robot:
@@ -22,3 +30,93 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+
+    deploy_post:
+        ui_options:
+            01 - upgrade - v2.3:
+                name: RIO Education - Upgrade to v2.3
+                is_required: False
+                is_recommended: False
+            02 - upgrade - v2.4:
+                name: RIO Education - Upgrade to v2.4
+                is_required: False
+                is_recommended: False
+            03 - upgrade - v2.5:
+                name: RIO Education - Upgrade to v2.5
+                is_required: False
+                is_recommended: False
+            04 - upgrade - v2.6:
+                name: RIO Education - Upgrade to v2.6
+                is_required: False
+                is_recommended: False
+            05 - upgrade - v2.7:
+                name: RIO Education - Upgrade to v2.7
+                is_required: False
+                is_recommended: False
+            06 - upgrade - v2.8:
+                name: RIO Education - Upgrade to v2.8
+                is_required: False
+                is_recommended: False
+            07 - upgrade - v2.9:
+                name: RIO Education - Upgrade to v2.9
+                is_required: False
+                is_recommended: False
+            08 - upgrade - v2.10:
+                name: RIO Education - Upgrade to v2.10
+                is_required: False
+                is_recommended: False
+            09 - upgrade - v2.10.8:
+                name: RIO Education - Upgrade to v2.10.8
+                is_required: False
+                is_recommended: False
+            10 - upgrade - v2.11:
+                name: RIO Education - Upgrade to v2.11
+                is_required: False
+                is_recommended: False
+            11 - upgrade - v2.12:
+                name: RIO Education - Upgrade to v2.12
+                is_required: False
+                is_recommended: False
+            12 - upgrade - v2.13:
+                name: RIO Education - Upgrade to v2.13
+                is_required: False
+                is_recommended: False
+            13 - upgrade - v2.14:
+                name: RIO Education - Upgrade to v2.14
+                is_required: False
+                is_recommended: False
+            14 - upgrade - v3.0:
+                name: RIO Education - Upgrade to v3.0
+                is_required: False
+                is_recommended: False
+            15 - upgrade - v3.1:
+                name: RIO Education - Upgrade to v3.1
+                is_required: False
+                is_recommended: False
+            16 - upgrade - v3.2:
+                name: RIO Education - Upgrade to v3.2
+                is_required: False
+                is_recommended: False
+            17 - upgrade - v3.3:
+                name: RIO Education - Upgrade to v3.3
+                is_required: False
+                is_recommended: False
+            18 - upgrade - v3.4:
+                name: RIO Education - Upgrade to v3.4
+                is_required: False
+                is_recommended: False
+            19 - upgrade - v3.5:
+                name: RIO Education - Upgrade to v3.5
+                is_required: False
+                is_recommended: False
+
+plans:
+    upgrade:
+        slug: upgrade
+        title: Upgrade RIO Education
+        tier: primary
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    unmanaged: False
