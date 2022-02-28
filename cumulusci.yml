@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.52.0'
+project:
+    name: RIO-Education-Metadata-Upgrade
+    package:
+        name: RIO-Education-Metadata-Upgrade
+        api_version: '52.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/RIO-Education-Metadata-Upgrade/tests
+            options:
+                outputdir: robot/RIO-Education-Metadata-Upgrade/results
+
+    robot_testdoc:
+        options:
+            path: robot/RIO-Education-Metadata-Upgrade/tests
+            output: robot/RIO-Education-Metadata-Upgrade/doc/RIO-Education-Metadata-Upgrade_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
