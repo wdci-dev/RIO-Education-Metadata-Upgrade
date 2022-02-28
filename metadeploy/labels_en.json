@@ -99,6 +99,166 @@
         "RIO Education v3.5 - Custom Picklists": {
             "message": "RIO Education v3.5 - Custom Picklists",
             "description": "title of installation step"
+        },
+        "RIO Education v2.5 - Layouts and Configs": {
+            "message": "RIO Education v2.5 - Layouts and Configs",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.5 - Student Community Security Setup": {
+            "message": "RIO Education v2.5 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.5 - Faculty Community Security Setup": {
+            "message": "RIO Education v2.5 - Faculty Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.5 - Combined Community Security Setup": {
+            "message": "RIO Education v2.5 - Combined Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.6 - REDU Security Setup": {
+            "message": "RIO Education v2.6 - REDU Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.6 - Layouts": {
+            "message": "RIO Education v2.6 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.6 - Faculty Community Security Setup": {
+            "message": "RIO Education v2.6 - Faculty Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.7 - REDU Custom Metadata": {
+            "message": "RIO Education v2.7 - REDU Custom Metadata",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.7 - Layouts": {
+            "message": "RIO Education v2.7 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.7 - EDA Security Setup": {
+            "message": "RIO Education v2.7 - EDA Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.7 - REDU Security Setup": {
+            "message": "RIO Education v2.7 - REDU Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.7 - Faculty Community Security Setup": {
+            "message": "RIO Education v2.7 - Faculty Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.9 - REDU Custom Metadata": {
+            "message": "RIO Education v2.9 - REDU Custom Metadata",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.9 - Custom Picklist": {
+            "message": "RIO Education v2.9 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.9 - Layout": {
+            "message": "RIO Education v2.9 - Layout",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.9 - Student Community Security Setup": {
+            "message": "RIO Education v2.9 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.9 - Combined Community Security Setup": {
+            "message": "RIO Education v2.9 - Combined Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - REDU Lightning Page Assignment": {
+            "message": "RIO Education v2.10 - REDU Lightning Page Assignment",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Custom Picklist": {
+            "message": "RIO Education v2.10 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Layout": {
+            "message": "RIO Education v2.10 - Layout",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Student Community Security Setup": {
+            "message": "RIO Education v2.10 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Combined Community Security Setup": {
+            "message": "RIO Education v2.10 - Combined Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Appointment Scheduler Automation": {
+            "message": "RIO Education v2.10 - Appointment Scheduler Automation",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10.8 - Custom Picklist": {
+            "message": "RIO Education v2.10.8 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.11 - Layout": {
+            "message": "RIO Education v2.11 - Layout",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.11 - Custom Picklist": {
+            "message": "RIO Education v2.11 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.11 - Obsolete Components": {
+            "message": "RIO Education v2.11 - Obsolete Components",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.12 - Layouts": {
+            "message": "RIO Education v2.12 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.12 - Custom Picklist": {
+            "message": "RIO Education v2.12 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.13 - Custom Picklist": {
+            "message": "RIO Education v2.13 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.14 - Custom Picklist": {
+            "message": "RIO Education v2.14 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.14 - EDA Field Security": {
+            "message": "RIO Education v2.14 - EDA Field Security",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.0 - Layouts": {
+            "message": "RIO Education v3.0 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.1 - Layouts": {
+            "message": "RIO Education v3.1 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.1 - Custom Picklist": {
+            "message": "RIO Education v3.1 - Custom Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.1 - Student Community Security Setup": {
+            "message": "RIO Education v3.1 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.2 - Layouts": {
+            "message": "RIO Education v3.2 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.2 - Student Community Security Setup": {
+            "message": "RIO Education v3.2 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.3 - Layouts": {
+            "message": "RIO Education v3.3 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.4 - Layouts": {
+            "message": "RIO Education v3.4 - Layouts",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -110,6 +270,108 @@
     "plan:v3.5": {
         "title": {
             "message": "RIO Education - Upgrade to v3.5",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.4": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.4",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.5": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.5",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.6": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.6",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.7": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.7",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.8": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.8",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.9": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.9",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.10": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.10",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.10.8": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.10.8",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.11": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.11",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.12": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.12",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.13": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.13",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v2.14": {
+        "title": {
+            "message": "RIO Education - Upgrade to v2.14",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.0": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.0",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.1": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.1",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.2": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.2",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.3": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.3",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.4": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.4",
             "description": "title of installation plan"
         }
     }
