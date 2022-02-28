@@ -33,6 +33,8 @@ tasks:
 
     deploy_post:
         ui_options:
+            01_layouts_and_configs:
+                name: RIO Education v2.3 - Layouts and Configs
             
 
 plans:
