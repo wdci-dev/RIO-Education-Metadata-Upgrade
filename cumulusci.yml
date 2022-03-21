@@ -209,6 +209,10 @@ tasks:
                 name: RIO Education v3.6 - Layouts
                 is_required: False
                 is_recommended: False
+            v3.7_01_layouts:
+                name: RIO Education v3.7 - Layouts
+                is_required: False
+                is_recommended: False
 
 plans:
     v2.3:
@@ -429,4 +433,14 @@ plans:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.6
+                    unmanaged: False
+    v3.7:
+        slug: v3_7
+        title: RIO Education - Upgrade to v3.7
+        tier: additional
+        steps:
+            1:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.7
                     unmanaged: False
