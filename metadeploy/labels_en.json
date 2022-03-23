@@ -3,6 +3,14 @@
         "title": {
             "message": "RIO Education - Upgrades",
             "description": "name of product"
+        },
+        "short_description": {
+            "message": "Metadata packages for upgrading RIO Education",
+            "description": "tagline of product"
+        },
+        "description": {
+            "message": "<h1>How to upgrade metadata</h1>\r\n\r\n<b>WARNING:</b> If you are installing into an existing Salesforce org - STOP and contact us for assistance to avoid overwriting any existing metadata. It is important to compare the metadata before applying because it would overwrite any existing configuration.\r\n\r\nPlease deploy all plans starting from the plan after the version you are upgrading from, and finishing with the plan for the version you are upgrading to.\r\n\r\nFor example, if your current version is v2.9 and you wish to upgrade to v3.1, you will deploy the following plans:\r\n\r\n<ul>\r\n<li>RIO Education - Upgrade to v2.10</li>\r\n<li>RIO Education - Upgrade to v2.10.8</li>\r\n<li>RIO Education - Upgrade to v2.11</li>\r\n<li>RIO Education - Upgrade to v2.12</li>\r\n<li>RIO Education - Upgrade to v2.13</li>\r\n<li>RIO Education - Upgrade to v2.14</li>\r\n<li>RIO Education - Upgrade to v3.0</li>\r\n<li>RIO Education - Upgrade to v3.1</li>\r\n</ul>\r\n\r\n<b>Community Security Setup packages</b>\r\n\r\nPlease note that some plans contain metadata packages for the Community Security Setup. Which packages you deploy will depend on how your community is set up.\r\n\r\nIf your instance only has a single community that will be used by both Faculty and Student members, please select only the \"Combined Community Security Setup\" metadata packages.\r\n\r\nIf your instance uses two different communities for Faculty and Student members respectively, please select only the \"Student Community Security Setup\" and \"Faculty Community Security Setup\" metadata packages.\r\n\r\nMake sure this choice is consistent across all plans you deploy.",
+            "description": "shown on product detail page (markdown)"
         }
     },
     "plan:upgrade": {
