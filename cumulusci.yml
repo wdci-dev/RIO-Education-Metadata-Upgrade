@@ -94,7 +94,7 @@ tasks:
                 is_required: False
                 is_recommended: False
             v2.9_03_layout:
-                name: RIO Education v2.9 - Layout
+                name: RIO Education v2.9 - Layouts
                 is_required: False
                 is_recommended: False
             v2.9_04_01_student_community_security_setup:
@@ -114,7 +114,7 @@ tasks:
                 is_required: False
                 is_recommended: False
             v2.10_03_layout:
-                name: RIO Education v2.10 - Layout
+                name: RIO Education v2.10 - Layouts
                 is_required: False
                 is_recommended: False
             v2.10_04_01_student_community_security_setup:
@@ -134,7 +134,7 @@ tasks:
                 is_required: False
                 is_recommended: False
             v2.11_01_layout:
-                name: RIO Education v2.11 - Layout
+                name: RIO Education v2.11 - Layouts
                 is_required: False
                 is_recommended: False
             v2.11_02_custompicklist:
