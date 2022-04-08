@@ -271,6 +271,22 @@
         "RIO Education v3.6 - Layouts": {
             "message": "RIO Education v3.6 - Layouts",
             "description": "title of installation step"
+        },
+        "RIO Education v2.9 - Layouts": {
+            "message": "RIO Education v2.9 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.10 - Layouts": {
+            "message": "RIO Education v2.10 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v2.11 - Layouts": {
+            "message": "RIO Education v2.11 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.7 - Layouts": {
+            "message": "RIO Education v3.7 - Layouts",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -390,6 +406,12 @@
     "plan:v3.6": {
         "title": {
             "message": "RIO Education - Upgrade to v3.6",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.7": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.7",
             "description": "title of installation plan"
         }
     }

@@ -213,6 +213,10 @@ tasks:
                 name: RIO Education v3.7 - Layouts
                 is_required: False
                 is_recommended: False
+            v3.8_01_layouts:
+                name: RIO Education v3.8 - Layouts
+                is_required: False
+                is_recommended: False
 
 plans:
     v2.3:
