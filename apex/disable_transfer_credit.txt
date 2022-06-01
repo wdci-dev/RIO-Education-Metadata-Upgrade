@@ -1,0 +1,10 @@
+// ISS-001180
+
+List<hed__Trigger_Handler__c> tcTriggerHandlers = [SELECT hed__Active__c FROM hed__Trigger_Handler__c
+WHERE hed__Class__c = 'TC_LinkCourseConnection_TDTM'];
+
+for (hed__Trigger_Handler__c tcTriggerHandler : tcTriggerHandlers) {
+    tcTriggerHandler.hed__Active__c = false;
+}
+
+update tcTriggerHandlers;

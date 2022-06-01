@@ -287,6 +287,10 @@
         "RIO Education v3.7 - Layouts": {
             "message": "RIO Education v3.7 - Layouts",
             "description": "title of installation step"
+        },
+        "RIO Education v3.8 - Layouts": {
+            "message": "RIO Education v3.8 - Layouts",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -412,6 +416,12 @@
     "plan:v3.7": {
         "title": {
             "message": "RIO Education - Upgrade to v3.7",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.8": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.8",
             "description": "title of installation plan"
         }
     }

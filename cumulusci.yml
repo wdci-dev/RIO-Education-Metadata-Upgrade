@@ -459,3 +459,33 @@ plans:
                 options:
                     path: unpackaged/post/v3.8
                     unmanaged: False
+    
+    v3.9:
+        slug: v3_9
+        title: RIO Education - Upgrade to v3.9
+        tier: additional
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/disable_transfer_credit.txt
+                ui_options:
+                    name: RIO Education v3.9 - Disable Transfer Credit TDTM
+                    is_required: False
+                    is_recommended: False
+            2:
+                task: execute_anon
+                options:
+                    path: apex/copy_loan_fee.txt
+                ui_options:
+                    name: RIO Education v3.9 - Copy Loan Fee to Fee Schedules
+                    is_required: False
+                    is_recommended: False
+            2:
+                task: execute_anon
+                options:
+                    path: apex/tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.9 - Transfer Credit Course ID
+                    is_required: False
+                    is_recommended: False

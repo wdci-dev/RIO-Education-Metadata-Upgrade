@@ -1,0 +1,21 @@
+// ISS-001228
+
+List<rio_ed__Transfer_Credit__c> transferCreditList = 
+[SELECT rio_ed__Approved_Course__c, rio_ed__Course_ID__c FROM rio_ed__Transfer_Credit__c];
+
+List<Id> transferCreditCourseList = new List<Id>();
+
+for (rio_ed__Transfer_Credit__c transferCredit : transferCreditList) {
+    transferCreditCourseList.add(rio_ed__Approved_Course__c);
+}
+
+Map<Id, hed__Course__c> courseMap =  
+new Map<Id, hed__Course__c>([SELECT Id, hed__Course_ID__c FROM hed__Course__c
+WHERE Id IN :transferCreditCourseList]);
+
+for (rio_ed__Transfer_Credit__c transferCredit : transferCreditList) {
+    transferCredit.rio_ed__Course_ID__c = 
+    courseMap.get(transferCredit.rio_ed__Approved_Course__c).hed__Course_ID__c;
+}
+
+update transferCreditList;
