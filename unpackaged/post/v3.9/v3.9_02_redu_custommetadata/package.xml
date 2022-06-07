@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>rio_ed__Auto_Credit_Transfer_Configuration.rio_ed__Credit_Transfer</members>
+        <members>rio_ed__Auto_Credit_Transfer_Configuration.rio_ed__Pass</members>
+        <members>rio_ed__Auto_Credit_Transfer_Configuration.rio_ed__RPL</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>53.0</version>
+</Package>
