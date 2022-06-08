@@ -16,7 +16,6 @@
 		<members>rio_ed__Agreement_Course__c-rio_ed__RIOEducation Agreement Course Layout</members>
 		<members>rio_ed__Transfer_Agreement__c-rio_ed__RIOEducation Transfer Agreement Layout</members>
 		<members>rio_ed__Agreement__c-rio_ed__RIOEducation Agreement Layout</members>
-		<members>rio_ed__Transfer_Credit__c-rio_ed__RIOEducation Transfer Credit Layout</members>
 		<members>rio_ed__Auto_Credit_Transfer_Configuration__mdt-rio_ed__RIOEducation Auto Credit Transfer Configuration Layout</members>
         <name>Layout</name>
     </types>
