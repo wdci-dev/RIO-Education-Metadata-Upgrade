@@ -291,6 +291,34 @@
         "RIO Education v3.8 - Layouts": {
             "message": "RIO Education v3.8 - Layouts",
             "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Disable Transfer Credit TDTM": {
+            "message": "RIO Education v3.9 - Disable Transfer Credit TDTM",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Transfer Credit Course ID": {
+            "message": "RIO Education v3.9 - Transfer Credit Course ID",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Layouts": {
+            "message": "RIO Education v3.9 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - REDU Custom Metadata": {
+            "message": "RIO Education v3.9 - REDU Custom Metadata",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Profiles": {
+            "message": "RIO Education v3.9 - Profiles",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Student Community Security Setup": {
+            "message": "RIO Education v3.9 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Combined Community Security Setup": {
+            "message": "RIO Education v3.9 - Combined Community Security Setup",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -422,6 +450,12 @@
     "plan:v3.8": {
         "title": {
             "message": "RIO Education - Upgrade to v3.8",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.9": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.9",
             "description": "title of installation plan"
         }
     }

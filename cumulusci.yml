@@ -501,7 +501,7 @@ plans:
                     name: RIO Education v3.9 - Copy Loan Fee to Fee Schedules
                     is_required: False
                     is_recommended: False
-            2:
+            3:
                 task: execute_anon
                 options:
                     path: apex/tc_course_id.txt
@@ -509,7 +509,7 @@ plans:
                     name: RIO Education v3.9 - Transfer Credit Course ID
                     is_required: False
                     is_recommended: False
-            3:
+            4:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.9
