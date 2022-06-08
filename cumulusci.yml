@@ -217,6 +217,26 @@ tasks:
                 name: RIO Education v3.8 - Layouts
                 is_required: False
                 is_recommended: False
+            v3.9_01_layouts:
+                name: RIO Education v3.9 - Layouts
+                is_required: False
+                is_recommended: False
+            v3.9_02_redu_custommetadata:
+                name: RIO Education v3.9 - REDU Custom Metadata
+                is_required: False
+                is_recommended: False
+            v3.9_03_profiles:
+                name: RIO Education v3.9 - Profiles
+                is_required: False
+                is_recommended: False
+            v3.9_04_01_student_community_security_setup:
+                name: RIO Education v3.9 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.9_04_03_combined_community_security_setup:
+                name: RIO Education v3.9 - Combined Community Security Setup
+                is_required: False
+                is_recommended: False
 
 plans:
     v2.3:
@@ -489,3 +509,8 @@ plans:
                     name: RIO Education v3.9 - Transfer Credit Course ID
                     is_required: False
                     is_recommended: False
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.9
+                    unmanaged: False
