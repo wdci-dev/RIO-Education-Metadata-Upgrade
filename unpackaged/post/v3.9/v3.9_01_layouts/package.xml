@@ -11,7 +11,6 @@
 		<members>rio_ed__Grade__c-rio_ed__RIOEducation Grade Layout</members>
 		<members>rio_ed__Grade__c-rio_ed__RIOEducation SubGrade Layout</members>
 		<members>hed__Term_Grade__c-rio_ed__RIOEducation Term Grade Layout</members>
-		<members>rio_ed__Pathway_Unit__c.rio_ed__RIOEducation Pathway Unit Layout</members>
 		<members>rio_ed__Session_Connection__c-rio_ed__RIOEducation Session Connection Layout</members>
 		<members>hed__Course_Enrollment__c-rio_ed__RIOEducation Student Course Enrollment Layout</members>
 		<members>rio_ed__Agreement_Course__c-rio_ed__RIOEducation Agreement Course Layout</members>
