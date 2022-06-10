@@ -5,6 +5,11 @@
 		<members>REDU - Student</members>
         <name>Profile</name>
     </types>
+
+    <types>
+        <members>REDU_Student</members>
+        <name>SharingSet</name>
+    </types>
 	
     <version>50.0</version>
 </Package>

@@ -1,7 +1,8 @@
 // ISS-001219
 
 Map<Id, rio_ed__Fee__c> feeMap = 
-new Map<Id, rio_ed__Fee__c>([SELECT Id, rio_ed__Loan_Fee__c FROM rio_ed__Fee__c]);
+new Map<Id, rio_ed__Fee__c>([SELECT Id, rio_ed__Loan_Fee__c FROM rio_ed__Fee__c 
+WHERE rio_ed__Loan_Fee__c != null]);
 
 List<rio_ed__Fee_Schedule__c> feeScheduleList = [SELECT rio_ed__Fee__c, rio_ed__Loan_Fee__c FROM rio_ed__Fee_Schedule__c 
 WHERE rio_ed__Fee__c IN :feeMap.keySet()];

@@ -5,7 +5,7 @@ WHERE hed__Class__c = 'rio_ed.TC_LinkCourseConnection_TDTM' AND hed__Owned_by_Na
 
 for (hed__Trigger_Handler__c tcTriggerHandler : tcTriggerHandlers) {
     tcTriggerHandler.hed__Active__c = false;
-    tcTriggerHandler.rio_ed__Notes__c = 'Disabled by v3.9 upgrade task'
+    tcTriggerHandler.rio_ed__Notes__c = 'Disabled by v3.9 upgrade task';
 }
 
 update tcTriggerHandlers;
