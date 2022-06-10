@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
 	
 	<layoutAssignments>
-		<layout>hed__Application__c-rio_ed__RIOEducation Application Community Layout</layout>
+		<layout>hed__Application__c-rio_ed__RIOEducation Application Layout</layout>
 	</layoutAssignments>
 	
 </Profile>

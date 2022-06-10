@@ -319,6 +319,10 @@
         "RIO Education v3.9 - Combined Community Security Setup": {
             "message": "RIO Education v3.9 - Combined Community Security Setup",
             "description": "title of installation step"
+        },
+        "RIO Education v3.9 - Copy Loan Fee to Fee Schedules": {
+            "message": "RIO Education v3.9 - Copy Loan Fee to Fee Schedules",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
