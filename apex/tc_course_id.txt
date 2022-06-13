@@ -7,7 +7,7 @@ WHERE rio_ed__Approved_Course__c != null];
 List<Id> transferCreditCourseList = new List<Id>();
 
 for (rio_ed__Transfer_Credit__c transferCredit : transferCreditList) {
-    transferCreditCourseList.add(rio_ed__Approved_Course__c);
+    transferCreditCourseList.add(transferCredit.rio_ed__Approved_Course__c);
 }
 
 Map<Id, hed__Course__c> courseMap =  
