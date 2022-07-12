@@ -514,3 +514,25 @@ plans:
                 options:
                     path: unpackaged/post/v3.9
                     unmanaged: False
+    
+    v3.10:
+        slug: v3_10
+        title: RIO Education - Upgrade to v3.10
+        tier: additional
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/allow_students_to_select_venue.txt
+                ui_options:
+                    name: RIO Education v3.10 - Allow Students to Select Venue
+                    is_required: False
+                    is_recommended: False
+            2:
+                task: execute_anon
+                options:
+                    path: apex/allow_faculties_to_book.txt
+                ui_options:
+                    name: RIO Education v3.10 - Allow Faculties to Book
+                    is_required: False
+                    is_recommended: False
