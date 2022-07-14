@@ -237,10 +237,6 @@ tasks:
                 name: RIO Education v3.9 - Combined Community Security Setup
                 is_required: False
                 is_recommended: False
-            v3.10_01_configs:
-                name: RIO Education v3.10 - Configs
-                is_required: False
-                is_recommended: False
 
 plans:
     v2.3:
@@ -517,31 +513,4 @@ plans:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.9
-                    unmanaged: False
-    
-    v3.10:
-        slug: v3_10
-        title: RIO Education - Upgrade to v3.10
-        tier: additional
-        steps:
-            1:
-                task: execute_anon
-                options:
-                    path: apex/allow_students_to_select_venue.txt
-                ui_options:
-                    name: RIO Education v3.10 - Allow Students to Select Venue
-                    is_required: False
-                    is_recommended: False
-            2:
-                task: execute_anon
-                options:
-                    path: apex/allow_faculties_to_book.txt
-                ui_options:
-                    name: RIO Education v3.10 - Allow Faculties to Book
-                    is_required: False
-                    is_recommended: False
-            3:
-                task: deploy_post
-                options:
-                    path: unpackaged/post/v3.10
                     unmanaged: False

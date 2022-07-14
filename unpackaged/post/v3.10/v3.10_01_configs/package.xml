@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>rio_ed__PE_Pathway_Status__c.rio_ed__Max_Credits_Per_Term</members>
-        <name>ValidationRule</name>
-    </types>
-    <version>53.0</version>
-</Package>

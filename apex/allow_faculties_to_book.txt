@@ -1,7 +1,0 @@
-List<rio_ed__Appointment_Type__c> listApptType = [SELECT rio_ed__Allow_Faculties_To_Book__c FROM rio_ed__Appointment_Type__c];
-
-for (rio_ed__Appointment_Type__c apptType : listApptType) {
-    apptType.rio_ed__Allow_Faculties_To_Book__c = true;
-}
-
-update listApptType;
