@@ -237,6 +237,10 @@ tasks:
                 name: RIO Education v3.9 - Combined Community Security Setup
                 is_required: False
                 is_recommended: False
+            v3.10_01_configs:
+                name: RIO Education v3.10 - Configs
+                is_required: False
+                is_recommended: False
 
 plans:
     v2.3:
@@ -536,3 +540,8 @@ plans:
                     name: RIO Education v3.10 - Allow Faculties to Book
                     is_required: False
                     is_recommended: False
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.10
+                    unmanaged: False
