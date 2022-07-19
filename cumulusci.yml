@@ -245,20 +245,20 @@ tasks:
                 name: RIO Education v3.10 - Validation Rule
                 is_required: False
                 is_recommended: False
-            v3.10_04_01_student_community_security_setup:
+            v3.10_04_orgwide_default_sharing:
+                name: RIO Education v3.10 - Org-Wide Default Sharing
+                is_required: False
+                is_recommended: False
+            v3.10_05_01_student_community_security_setup:
                 name: RIO Education v3.10 - Student Community Security Setup
                 is_required: False
                 is_recommended: False
-            v3.10_04_02_faculty_community_security_setup:
+            v3.10_05_02_faculty_community_security_setup:
                 name: RIO Education v3.10 - Faculty Community Security Setup
                 is_required: False
                 is_recommended: False
-            v3.10_04_03_combined_community_security_setup:
+            v3.10_05_03_combined_community_security_setup:
                 name: RIO Education v3.10 - Combined Community Security Setup
-                is_required: False
-                is_recommended: False
-            v3.10_05_orgwide_default_sharing:
-                name: RIO Education v3.10 - Org-Wide Default Sharing
                 is_required: False
                 is_recommended: False
 
