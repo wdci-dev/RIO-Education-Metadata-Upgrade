@@ -237,6 +237,30 @@ tasks:
                 name: RIO Education v3.9 - Combined Community Security Setup
                 is_required: False
                 is_recommended: False
+            v3.10_01_layouts:
+                name: RIO Education v3.10 - Layouts
+                is_required: False
+                is_recommended: False
+            v3.10_02_validation_rule:
+                name: RIO Education v3.10 - Validation Rule
+                is_required: False
+                is_recommended: False
+            v3.10_04_01_student_community_security_setup:
+                name: RIO Education v3.10 - Student Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.10_04_02_faculty_community_security_setup:
+                name: RIO Education v3.10 - Faculty Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.10_04_03_combined_community_security_setup:
+                name: RIO Education v3.10 - Combined Community Security Setup
+                is_required: False
+                is_recommended: False
+            v3.10_05_orgwide_default_sharing:
+                name: RIO Education v3.10 - Org-Wide Default Sharing
+                is_required: False
+                is_recommended: False
 
 plans:
     v2.3:
@@ -513,4 +537,31 @@ plans:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.9
+                    unmanaged: False
+    
+    v3.10:
+        slug: v3_10
+        title: RIO Education - Upgrade to v3.10
+        tier: additional
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/allow_students_to_select_venue.txt
+                ui_options:
+                    name: RIO Education v3.10 - Allow Students to Select Venue
+                    is_required: False
+                    is_recommended: False
+            2:
+                task: execute_anon
+                options:
+                    path: apex/allow_faculties_to_book.txt
+                ui_options:
+                    name: RIO Education v3.10 - Allow Faculties to Book
+                    is_required: False
+                    is_recommended: False
+            4:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.10
                     unmanaged: False
