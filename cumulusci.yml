@@ -3,6 +3,7 @@ project:
     name: RIO-Education-Metadata-Upgrade
     package:
         name: RIO-Education-Metadata-Upgrade
+        namespace: rio_ed
         api_version: '52.0'
     git:
         prefix_release: rel/
@@ -40,6 +41,11 @@ tasks:
             settings_field: IsCommunityWorkspacesEnabled
             value: true
             treat_missing_as_failure: True
+    
+    deploy_pre:
+        ui_options:
+            01_heda_object_tracking:
+                name: RIO Education - HEDA Object Tracking
 
     deploy_post:
         ui_options:
@@ -657,6 +663,9 @@ plans:
         steps:
             1:
                 flow: basic_install
+                ui_options:
+                    is_required: False
+                    is_recommended: False
             2:
                 task: execute_anon
                 options:
