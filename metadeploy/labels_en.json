@@ -355,6 +355,70 @@
         "RIO Education v3.10 - Org-Wide Default Sharing": {
             "message": "RIO Education v3.10 - Org-Wide Default Sharing",
             "description": "title of installation step"
+        },
+        "RIO Education - Salesforce Feature Enablement": {
+            "message": "RIO Education - Salesforce Feature Enablement",
+            "description": "title of installation step"
+        },
+        "RIO Education - HEDA Object Tracking": {
+            "message": "RIO Education - HEDA Object Tracking",
+            "description": "title of installation step"
+        },
+        "Install {product} {version}": {
+            "message": "Install {product} {version}",
+            "description": "title of installation step"
+        },
+        "RIO Education - Public Groups": {
+            "message": "RIO Education - Public Groups",
+            "description": "title of installation step"
+        },
+        "RIO Education - Standard Objects UI": {
+            "message": "RIO Education - Standard Objects UI",
+            "description": "title of installation step"
+        },
+        "RIO Education - EDA Objects UI": {
+            "message": "RIO Education - EDA Objects UI",
+            "description": "title of installation step"
+        },
+        "RIO Education - Standard Objects Security Setup": {
+            "message": "RIO Education - Standard Objects Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education - EDA Security Setup": {
+            "message": "RIO Education - EDA Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education - REDU Security Setup": {
+            "message": "RIO Education - REDU Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education - Standard Object Tracking": {
+            "message": "RIO Education - Standard Object Tracking",
+            "description": "title of installation step"
+        },
+        "RIO Education - REDU Object Tracking": {
+            "message": "RIO Education - REDU Object Tracking",
+            "description": "title of installation step"
+        },
+        "RIO Education - Appointment Scheduler Automation": {
+            "message": "RIO Education - Appointment Scheduler Automation",
+            "description": "title of installation step"
+        },
+        "RIO Education - EDA Object Picklist": {
+            "message": "RIO Education - EDA Object Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education - EDA Object Path Assistant": {
+            "message": "RIO Education - EDA Object Path Assistant",
+            "description": "title of installation step"
+        },
+        "RIO Education - REDU - Admin Permission Set": {
+            "message": "RIO Education - REDU - Admin Permission Set",
+            "description": "title of installation step"
+        },
+        "RIO Education - Update Group Members": {
+            "message": "RIO Education - Update Group Members",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -499,6 +563,20 @@
         "title": {
             "message": "RIO Education - Upgrade to v3.10",
             "description": "title of installation plan"
+        }
+    },
+    "checks": {
+        "Please enable My Domain in your org prior to installing.": {
+            "message": "Please enable My Domain in your org prior to installing.",
+            "description": "shown if validation fails"
+        },
+        "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education.": {
+            "message": "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education.",
+            "description": "shown if validation fails"
+        },
+        "Please enable Communities in your org prior to installing.": {
+            "message": "Please enable Communities in your org prior to installing.",
+            "description": "shown if validation fails"
         }
     }
 }

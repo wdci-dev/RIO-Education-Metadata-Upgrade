@@ -297,6 +297,9 @@ flows:
                         is_recommended: False
                 2:
                     flow: dependencies
+                    ui_options:
+                        is_required: False
+                        is_recommended: False
                 3:
                     task: install_managed
                     options:
@@ -304,6 +307,8 @@ flows:
                         security_type: NONE
                     ui_options:
                         name: Install RIO Education 3.10
+                        is_required: False
+                        is_recommended: False
                 4:
                     task: deploy_post
                     options:
@@ -312,6 +317,8 @@ flows:
                     ui_options:
                         00_redu_public_groups:
                             name: RIO Education - Public Groups
+                            is_required: False
+                            is_recommended: False
                         01_standard_objects_ui:
                             name: RIO Education - Standard Objects UI
                             is_required: False
@@ -362,12 +369,16 @@ flows:
                         api_names: REDU_Admin
                     ui_options:
                         name: RIO Education - REDU - Admin Permission Set
+                        is_required: False
+                        is_recommended: False
                 6:
                     task: execute_anon
                     options:
                         path: apex/update_group_members.txt
                     ui_options:
                         name: RIO Education - Update Group Members
+                        is_required: False
+                        is_recommended: False
 
 plans:
     v2.3:
@@ -663,9 +674,6 @@ plans:
         steps:
             1:
                 flow: basic_install
-                ui_options:
-                    is_required: False
-                    is_recommended: False
             2:
                 task: execute_anon
                 options:
