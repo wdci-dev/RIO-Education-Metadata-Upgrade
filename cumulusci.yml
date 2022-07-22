@@ -657,9 +657,6 @@ plans:
         steps:
             1:
                 flow: basic_install
-                options:
-                    is_required: False
-                    is_recommended: False
             2:
                 task: execute_anon
                 options:
