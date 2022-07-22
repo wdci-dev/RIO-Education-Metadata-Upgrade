@@ -1,0 +1,19 @@
+List<Group> reduAll = [Select Id from Group where DeveloperName = 'REDU_All'];
+List<Group> reduGroups = [Select Id from Group where DeveloperName = 'REDU_Admin' 
+                            Or DeveloperName = 'REDU_Faculty' Or DeveloperName = 'REDU_Guest'
+                            Or DeveloperName = 'REDU_Student'];
+
+if (!(reduAll.isEmpty()) && !(reduGroups.isEmpty())) {
+    List<GroupMember> gms = new List<GroupMember>();
+
+    for (Group g1 : reduAll) {
+        for (Group g2 : reduGroups) {
+            GroupMember gm = new GroupMember();
+            gm.GroupId = g1.Id;
+            gm.UserOrGroupId = g2.Id;
+            gms.add(gm);
+        }
+    }
+    
+    insert gms;
+}
