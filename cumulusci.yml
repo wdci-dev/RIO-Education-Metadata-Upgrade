@@ -305,29 +305,29 @@ plans:
                     unmanaged: False
                 ui_options:
                     v3.10_01_layouts:
-                    name: RIO Education v3.10 - Layouts
-                    is_required: False
-                    is_recommended: False
-                v3.10_02_validation_rule:
-                    name: RIO Education v3.10 - Validation Rule
-                    is_required: False
-                    is_recommended: False
-                v3.10_04_orgwide_default_sharing:
-                    name: RIO Education v3.10 - Org-Wide Default Sharing
-                    is_required: False
-                    is_recommended: False
-                v3.10_05_01_student_community_security_setup:
-                    name: RIO Education v3.10 - Student Community Security Setup
-                    is_required: False
-                    is_recommended: False
-                v3.10_05_02_faculty_community_security_setup:
-                    name: RIO Education v3.10 - Faculty Community Security Setup
-                    is_required: False
-                    is_recommended: False
-                v3.10_05_03_combined_community_security_setup:
-                    name: RIO Education v3.10 - Combined Community Security Setup
-                    is_required: False
-                    is_recommended: False
+                        name: RIO Education v3.10 - Layouts
+                        is_required: False
+                        is_recommended: False
+                    v3.10_02_validation_rule:
+                        name: RIO Education v3.10 - Validation Rule
+                        is_required: False
+                        is_recommended: False
+                    v3.10_04_orgwide_default_sharing:
+                        name: RIO Education v3.10 - Org-Wide Default Sharing
+                        is_required: False
+                        is_recommended: False
+                    v3.10_05_01_student_community_security_setup:
+                        name: RIO Education v3.10 - Student Community Security Setup
+                        is_required: False
+                        is_recommended: False
+                    v3.10_05_02_faculty_community_security_setup:
+                        name: RIO Education v3.10 - Faculty Community Security Setup
+                        is_required: False
+                        is_recommended: False
+                    v3.10_05_03_combined_community_security_setup:
+                        name: RIO Education v3.10 - Combined Community Security Setup
+                        is_required: False
+                        is_recommended: False
     
     v3.10.1:
         slug: v3_10.1
