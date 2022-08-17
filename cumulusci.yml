@@ -330,7 +330,7 @@ plans:
                         is_recommended: False
     
     v3.10.1:
-        slug: v3_10.1
+        slug: v3_10_1
         title: RIO Education - Upgrade to v3.10.1
         tier: additional
         checks:
