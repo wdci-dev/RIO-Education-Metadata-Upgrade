@@ -82,6 +82,14 @@ plans:
                         name: RIO Education v3.1 - Layouts
                         is_required: False
                         is_recommended: False
+                    v3.1_02_custompicklist:
+                        name: RIO Education v3.1 - Custom Picklist
+                        is_required: False
+                        is_recommended: False
+                    v3.1_03_01_student_community_security_setup:
+                        name: RIO Education v3.1 - Student Community Security Setup
+                        is_required: False
+                        is_recommended: False
     
     v3.2:
         slug: v3_2
