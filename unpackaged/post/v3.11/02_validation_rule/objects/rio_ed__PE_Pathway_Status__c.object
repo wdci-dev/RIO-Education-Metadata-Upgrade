@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>rio_ed__Required_Default_Program_Pathway</fullName>
+        <active>false</active>
+        <description>Obsolete. This is to ensure the Program Pathway is populated with PE&apos;s study pathway is &quot;Default&quot;. This is important to render the list of courses in enrollment wizard.</description>
+        <errorConditionFormula>ISPICKVAL( rio_ed__Program_Enrollment__r.rio_ed__Study_Pathway__c , &apos;Default&apos;) &amp;&amp; ISBLANK( rio_ed__Program_Pathway__c )</errorConditionFormula>
+        <errorDisplayField>rio_ed__Program_Pathway__c</errorDisplayField>
+        <errorMessage>Please select a Program Pathway.</errorMessage>
+    </validationRules>
+</CustomObject>
