@@ -20,5 +20,27 @@
         <members>rio_ed__PE_Pathway_Status__c.Required_Default_Program_Pathway</members>
         <name>ValidationRule</name>
     </types>
+	<types>
+        <members>rio_ed__Requirement_Set__c.REDU_Faculty_ReadEdit</members>
+		<members>rio_ed__Requirement__c.REDU_Faculty_ReadEdit</members>
+        <name>SharingRules</name>
+    </types>
+	<types>
+        <members>REDU_Student</members>
+        <name>SharingSet</name>
+    </types>
+	<types>
+        <members>hed__Course_Enrollment__c.Student</members>
+        <name>RecordType</name>
+    </types>
+	<types>
+        <members>Grade_Result</members>
+        <name>GlobalValueSet</name>
+    </types>
+	<types>
+        <members>hed__Course_Enrollment__c.rio_ed__Enrollment_Status__c</members>
+		<members>rio_ed__Session_Connection__c.rio_ed__Status__c</members>
+        <name>CustomField</name>
+    </types>
     <version>55.0</version>
 </Package>
