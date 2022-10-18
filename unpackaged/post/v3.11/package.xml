@@ -14,6 +14,7 @@
 		<members>hed__Program_Enrollment__c-rio_ed__RIOEducation Program Enrollment Layout</members>
 		<members>rio_ed__Discipline_Requirement__c-rio_ed__RIOEducation Discipline Requirement %28Course%29 Layout</members>
 		<members>rio_ed__Funding_Allocation__c-rio_ed__RIOEducation Funding Allocation Layout</members>
+		<members>hed__Course__c-rio_ed__RIOEducation Course Layout</members>
         <name>Layout</name>
     </types>
 	<types>
@@ -34,7 +35,7 @@
         <name>RecordType</name>
     </types>
 	<types>
-        <members>Grade_Result</members>
+        <members>rio_ed__Grade_Result</members>
         <name>GlobalValueSet</name>
     </types>
 	<types>
