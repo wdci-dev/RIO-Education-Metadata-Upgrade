@@ -14,6 +14,7 @@
         <members>rio_ed__PE_Discipline__c-rio_ed__RIOEducation PE Discipline Layout</members>
         <members>rio_ed__Student_Fee__c-rio_ed__RIOEducation Student Fee Layout</members>
         <members>rio_ed__Transfer_Credit__c-rio_ed__RIOEducation Transfer Credit Layout</members>
+		<members>hed__Course__c-rio_ed__RIOEducation Course Layout</members>
         <name>Layout</name>
     </types>
     <version>55.0</version>
