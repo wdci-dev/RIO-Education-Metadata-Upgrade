@@ -9,7 +9,7 @@
             "description": "tagline of product"
         },
         "description": {
-            "message": "<h1>RIO Education Upgrade Metadata</h1>\r\n\r\n<b>NOTE:</b> From v3.10 onwards, these upgrade plans include both the RIO Education package of the appropriate version and any post-upgrade metadata. Plans prior to v3.10 do not include the package. If you are upgrading to a version prior to v3.10, you will need to install the package using the main RIO Education installer before running the upgrade plan.\r\n\r\nFor more detailed information about these plans and the metadata they contain, please see <a href='https://help.rioeducation.com/en_US/deployment/rio-education-upgrade-plans'>this article</a>.\r\n\r\n<b>WARNING:</b> If you are installing into an existing Salesforce org - STOP and contact us for assistance to avoid overwriting any existing metadata. It is important to compare the metadata before applying because it would overwrite any existing configuration.\r\n\r\n<b>How to upgrade metadata</b>\r\n\r\nPlease deploy all plans starting from the plan after the version you are upgrading from, and finishing with the plan for the version you are upgrading to.\r\n\r\nFor example, if your current version is v3.5 and you wish to upgrade to v3.10, you will deploy the following plans:\r\n\r\n<ul>\r\n<li>RIO Education - Upgrade to v3.6</li>\r\n<li>RIO Education - Upgrade to v3.7</li>\r\n<li>RIO Education - Upgrade to v3.8</li>\r\n<li>RIO Education - Upgrade to v3.9</li>\r\n<li>RIO Education - Upgrade to v3.10</li>\r\n</ul>\r\n\r\n<b>Community Security Setup packages</b>\r\n\r\nPlease note that some plans contain metadata packages for the Community Security Setup. Which packages you deploy will depend on how your community is set up.\r\n\r\nIf your instance only has a single community that will be used by both Faculty and Student members, please select only the \"Combined Community Security Setup\" metadata packages.\r\n\r\nIf your instance uses two different communities for Faculty and Student members respectively, please select only the \"Student Community Security Setup\" and \"Faculty Community Security Setup\" metadata packages.\r\n\r\nIf you are deploying multiple upgrade plans, please ensure this choice is consistent across all plans you deploy.",
+            "message": "<h1>RIO Education Upgrade Metadata</h1>\r\n\r\n<b>NOTE:</b> All steps in these upgrade plans are optional (even in plans that have only one step). Before running a plan, please ensure you have selected at least one step.\r\n\r\nFor more detailed information about these plans and the metadata they contain, please see <a href='https://help.rioeducation.com/en_US/deployment/rio-education-upgrade-plans'>this article</a>.\r\n\r\n<b>WARNING:</b> If you are installing into an existing Salesforce org - STOP and contact us for assistance to avoid overwriting any existing metadata. It is important to compare the metadata before applying because it would overwrite any existing configuration.",
             "description": "shown on product detail page (markdown)"
         }
     },
@@ -427,6 +427,30 @@
         "Deploy unpackaged/post/v3.1/v3.1_03_01_student_community_security_setup": {
             "message": "Deploy unpackaged/post/v3.1/v3.1_03_01_student_community_security_setup",
             "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Layouts": {
+            "message": "RIO Education v3.11 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Validation Rule": {
+            "message": "RIO Education v3.11 - Validation Rule",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Picklist": {
+            "message": "RIO Education v3.11 - Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Student Community Security Setup": {
+            "message": "RIO Education v3.11 - Student Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Faculty Community Security Setup": {
+            "message": "RIO Education v3.11 - Faculty Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - Combined Community Security Setup": {
+            "message": "RIO Education v3.11 - Combined Community Security Setup",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -596,6 +620,18 @@
     "plan:v3.10.2": {
         "title": {
             "message": "RIO Education - Upgrade to v3.10.2",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.10.3": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.10.3",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.11": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.11",
             "description": "title of installation plan"
         }
     }
