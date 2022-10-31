@@ -466,3 +466,7 @@ plans:
                         name: RIO Education v3.11 - Combined Community Security Setup
                         is_required: False
                         is_recommended: False
+                    v3.11_05_redu_custommetadata:
+                        name: RIO Education v3.11 - REDU Custom Metadata
+                        is_required: False
+                        is_recommended: False
