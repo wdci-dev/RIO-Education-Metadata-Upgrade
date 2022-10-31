@@ -9,7 +9,7 @@
             "description": "tagline of product"
         },
         "description": {
-            "message": "<h1>RIO Education Upgrade Metadata</h1>\r\n\r\n<b>NOTE:</b> All steps in these upgrade plans are optional (even in plans that have only one step). Before running a plan, please ensure you have selected at least one step.\r\n\r\nFor more detailed information about these plans and the metadata they contain, please see <a href='https://help.rioeducation.com/en_US/deployment/rio-education-upgrade-plans'>this article</a>.\r\n\r\n<b>WARNING:</b> If you are installing into an existing Salesforce org - STOP and contact us for assistance to avoid overwriting any existing metadata. It is important to compare the metadata before applying because it would overwrite any existing configuration.",
+            "message": "<h1>RIO Education Upgrade Metadata</h1>\r\n\r\n<b>NOTE:</b> All steps in these upgrade plans are optional (even in plans that have only one step). Before running a plan, please ensure you have selected at least one step.\r\n\r\nFor more detailed information about these plans and the metadata they contain, please see <a href='https://help.rioeducation.com/en_US/deployment/rio-education-upgrade-plans'>this article</a>.\r\n\r\n<b>WARNING:</b> If you are installing into an existing Salesforce org - STOP and contact us for assistance to avoid overwriting any existing metadata. It is important to compare the metadata before applying because it would overwrite any existing configuration.\r\n\r\n<b>NOTE:</b> If you are using the out-of-the-box Transfer Credit functionality and you are upgrading directly to v3.11 or higher from a version prior to v3.9, you must first upgrade to v3.9. This is because some of the upgrade tasks for v3.9 depend on fields that are deleted in later versions. If you upgrade to the later package directly, then you will not be able to run these tasks.",
             "description": "shown on product detail page (markdown)"
         }
     },
@@ -450,6 +450,10 @@
         },
         "RIO Education v3.11 - Combined Community Security Setup": {
             "message": "RIO Education v3.11 - Combined Community Security Setup",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.11 - REDU Custom Metadata": {
+            "message": "RIO Education v3.11 - REDU Custom Metadata",
             "description": "title of installation step"
         }
     },
