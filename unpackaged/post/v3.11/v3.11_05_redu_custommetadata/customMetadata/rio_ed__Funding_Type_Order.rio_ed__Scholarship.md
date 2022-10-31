@@ -16,6 +16,6 @@
     </values>
     <values>
         <field>rio_ed__Order_of_Priority__c</field>
-        <value xsi:type="xsd:integer">4</value>
+        <value xsi:type="xsd:int">4</value>
     </values>
 </CustomMetadata>
