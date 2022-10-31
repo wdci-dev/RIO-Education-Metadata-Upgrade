@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>rio_ed__Funding_Type_Order.rio_ed__Discount_Percent</members>
+        <members>rio_ed__Funding_Type_Order.rio_ed__Discount</members>
+        <members>rio_ed__Funding_Type_Order.rio_ed__Scholarship</members>
+        <members>rio_ed__Funding_Type_Order.rio_ed__Sponsor</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>53.0</version>
+</Package>
