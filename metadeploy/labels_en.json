@@ -656,5 +656,23 @@
             "message": "RIO Education - Upgrade to v3.11.3",
             "description": "title of installation plan"
         }
+    },
+    "plan:v3.11.4": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.11.4",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.11.5": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.11.5",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.11.6": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.11.6",
+            "description": "title of installation plan"
+        }
     }
 }
