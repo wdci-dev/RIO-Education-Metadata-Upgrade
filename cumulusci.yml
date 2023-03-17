@@ -354,7 +354,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.10.1"
+                    version: 3.10.1
                     version_number: 04t3u000003Owpr
                     security_type: NONE
                 ui_options:
@@ -378,7 +378,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.10.2"
+                    version: 3.10.2
                     version_number: 04t3u000003OxBT
                     security_type: NONE
                 ui_options:
@@ -402,7 +402,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.10.3"
+                    version: 3.10.3
                     version_number: 04t3u000003OxC7
                     security_type: NONE
                 ui_options:
@@ -426,7 +426,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11"
+                    version: 3.11
                     version_number: 04t3u000003askk
                     security_type: NONE
                 ui_options:
@@ -484,7 +484,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.1"
+                    version: 3.11.1
                     version_number: 04t3u000003KrIO
                     security_type: NONE
                 ui_options:
@@ -508,7 +508,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.2"
+                    version: 3.11.2
                     version_number: 04t3u000003KrIx
                     security_type: NONE
                 ui_options:
@@ -532,7 +532,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.3"
+                    version: 3.11.3
                     version_number: 04t3u000003KrJg
                     security_type: NONE
                 ui_options:
@@ -556,7 +556,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.4"
+                    version: 3.11.4
                     version_number: 04t3u000003KrKy
                     security_type: NONE
                 ui_options:
@@ -579,7 +579,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.5"
+                    version: 3.11.5
                     version_number: 04t3u000003KrPu
                     security_type: NONE
                 ui_options:
@@ -603,7 +603,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.6"
+                    version: 3.11.6
                     version_number: 04t3u000003KrQJ
                     security_type: NONE
                 ui_options:
@@ -627,7 +627,7 @@ plans:
             1:
                 task: install_managed
                 options:
-                    version: "3.11.7"
+                    version: 3.11.7
                     version_number: 04t3u000003KrQd
                     security_type: NONE
                 ui_options:
