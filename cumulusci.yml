@@ -214,8 +214,26 @@ plans:
         slug: v3_9
         title: RIO Education - Upgrade to v3.9
         tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed__Trigger_Handler__c' not in tasks.check_sobjects_available()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: install_managed
+                options:
+                    version: 3.9
+                    version_number: 04t3u0000034Bck
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.9
+            2:
                 task: execute_anon
                 options:
                     path: apex/disable_transfer_credit.txt
@@ -223,7 +241,7 @@ plans:
                     name: RIO Education v3.9 - Disable Transfer Credit TDTM
                     is_required: False
                     is_recommended: False
-            2:
+            3:
                 task: execute_anon
                 options:
                     path: apex/copy_loan_fee.txt
@@ -231,7 +249,7 @@ plans:
                     name: RIO Education v3.9 - Copy Loan Fee to Fee Schedules
                     is_required: False
                     is_recommended: False
-            3:
+            4:
                 task: execute_anon
                 options:
                     path: apex/tc_course_id.txt
@@ -239,7 +257,7 @@ plans:
                     name: RIO Education v3.9 - Transfer Credit Course ID
                     is_required: False
                     is_recommended: False
-            4:
+            5:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.9
@@ -282,6 +300,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.10 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: "3.10"
@@ -289,7 +313,7 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.10
-            2:
+            3:
                 task: execute_anon
                 options:
                     path: apex/allow_students_to_select_venue.txt
@@ -297,7 +321,7 @@ plans:
                     name: RIO Education v3.10 - Allow Students to Select Venue
                     is_required: False
                     is_recommended: False
-            3:
+            4:
                 task: execute_anon
                 options:
                     path: apex/allow_faculties_to_book.txt
@@ -305,7 +329,7 @@ plans:
                     name: RIO Education v3.10 - Allow Faculties to Book
                     is_required: False
                     is_recommended: False
-            4:
+            5:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.10
@@ -352,6 +376,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.10.1 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.10.1
@@ -376,6 +406,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.10.2 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.10.2
@@ -400,6 +436,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.10.3 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.10.3
@@ -424,6 +466,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11
@@ -431,7 +479,7 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.11
-            2:
+            3:
                 task: deploy_post
                 options:
                     path: unpackaged/post/v3.11
@@ -482,6 +530,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.1 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.1
@@ -506,6 +560,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.2 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.2
@@ -530,6 +590,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.3 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.3
@@ -554,6 +620,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.4 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.4
@@ -577,6 +649,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11. - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.5
@@ -601,6 +679,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.6 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.6
@@ -625,6 +709,12 @@ plans:
               message: "Please enable Communities in your org prior to installing."
         steps:
             1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.11.7 - Check Transfer Credit Course ID
+            2:
                 task: install_managed
                 options:
                     version: 3.11.7
