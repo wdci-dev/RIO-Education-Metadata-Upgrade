@@ -41,6 +41,16 @@ tasks:
             settings_field: IsCommunityWorkspacesEnabled
             value: true
             treat_missing_as_failure: Trued
+    
+    check_lws_enabled:
+        description: Ensure that Lightning Web Security is enabled.
+        class_path: cumulusci.tasks.preflight.settings.CheckSettingsValue
+        group: Preflight Checks
+        options:
+            settings_type: SessionSettings
+            settings_field: LockerServiceNext
+            value: true
+            treat_missing_as_failure: True
 
 plans:
     v3.0:
@@ -722,3 +732,54 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.11.7
+    
+    v3.12:
+        slug: v3_12
+        title: RIO Education - Upgrade to v3.12
+        tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed' not in tasks.get_installed_packages()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
+            - when: "not tasks.check_lws_enabled()"
+              action: error
+              message: "Please enable Lightning Web Security in your org prior to installing."
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.12 - Check Transfer Credit Course ID
+            2:
+                task: install_managed
+                options:
+                    version: 3.12
+                    version_number: 04t3u000003X63p
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.12
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.12
+                    unmanaged: False
+                ui_options:
+                    v3.12_01_layout:
+                        name: RIO Education v3.12 - Layouts
+                        is_required: False
+                        is_recommended: False
+                    v3.12_02_picklist:
+                        name: RIO Education v3.12 - Picklist
+                        is_required: False
+                        is_recommended: False
+                    v3.12_03_community:
+                        name: RIO Education v3.12 - Community
+                        is_required: False
+                        is_recommended: False
