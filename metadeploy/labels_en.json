@@ -503,6 +503,22 @@
         "RIO Education v3.11.7 - Check Transfer Credit Course ID": {
             "message": "RIO Education v3.11.7 - Check Transfer Credit Course ID",
             "description": "title of installation step"
+        },
+        "RIO Education v3.12 - Check Transfer Credit Course ID": {
+            "message": "RIO Education v3.12 - Check Transfer Credit Course ID",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.12 - Layouts": {
+            "message": "RIO Education v3.12 - Layouts",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.12 - Picklist": {
+            "message": "RIO Education v3.12 - Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.12 - Community": {
+            "message": "RIO Education v3.12 - Community",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -661,6 +677,10 @@
         "Please enable Communities in your org prior to installing.": {
             "message": "Please enable Communities in your org prior to installing.",
             "description": "shown if validation fails"
+        },
+        "Please enable Lightning Web Security in your org prior to installing.": {
+            "message": "Please enable Lightning Web Security in your org prior to installing.",
+            "description": "shown if validation fails"
         }
     },
     "plan:v3.10.1": {
@@ -726,6 +746,12 @@
     "plan:v3.11.7": {
         "title": {
             "message": "RIO Education - Upgrade to v3.11.7",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.12": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.12",
             "description": "title of installation plan"
         }
     }
