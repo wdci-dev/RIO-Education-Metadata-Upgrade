@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pass/Fail</fullName>
+        <default>false</default>
+        <label>Pass/Fail</label>
+    </customValue>
+    <customValue>
+        <fullName>Percentage/Letter</fullName>
+        <default>true</default>
+        <label>Percentage/Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Educational Institution</fullName>
+        <default>false</default>
+        <label>Educational Institution</label>
+    </customValue>
+    <customValue>
+        <fullName>University Department</fullName>
+        <default>false</default>
+        <label>University Department</label>
+    </customValue>
+    <customValue>
+        <fullName>Academic Program</fullName>
+        <default>false</default>
+        <label>Academic Program</label>
+    </customValue>
+    <description>Determines the Grade Settings Type to be used for a Course Connection record.</description>
+    <masterLabel>Grade Setting Scope</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
