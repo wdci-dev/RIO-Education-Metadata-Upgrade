@@ -813,3 +813,33 @@ plans:
                         name: RIO Education v3.12 - Community
                         is_required: False
                         is_recommended: False
+    
+    v3.13:
+        slug: v3_13
+        title: RIO Education - Upgrade to v3.13
+        tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed' not in tasks.get_installed_packages()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.13 - Check Transfer Credit Course ID
+            2:
+                task: install_managed
+                options:
+                    version: 3.13
+                    version_number: 04t3u000003X649
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.13
