@@ -8,7 +8,11 @@ if (globalDescribe.containsKey('rio_ed__transfer_credit__c')) {
     Set<String> tcFields = globalDescribe.get('rio_ed__transfer_credit__c').getDescribe().fields.getMap().keySet();
 
     if(!tcFields.contains('rio_ed__course_id_s__c')) {
-        error = true;
+        List<sObject> transferCreditList = (List<sObject>)Database.query('SELECT Id FROM rio_ed__Transfer_Credit__c');
+        
+        if (!transferCreditList.isEmpty()) {
+            error = true;
+        }
     } else if (tcFields.contains('rio_ed__approved_course__c')) {
         List<sObject> notCopiedTransferCreditList = (List<sObject>)Database.query('SELECT Id FROM rio_ed__Transfer_Credit__c WHERE rio_ed__Approved_Course__c != null AND rio_ed__Course_ID_s__c = null');
         
