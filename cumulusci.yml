@@ -828,6 +828,9 @@ plans:
             - when: "not tasks.check_communities_enabled()"
               action: error
               message: "Please enable Communities in your org prior to installing."
+            - when: "not tasks.check_lws_enabled()"
+              action: error
+              message: "Please enable Lightning Web Security in your org prior to installing."
         steps:
             1:
                 task: execute_anon
