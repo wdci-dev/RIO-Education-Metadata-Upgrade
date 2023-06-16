@@ -846,6 +846,7 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.13
+    
     v3.13.1:
         slug: v3_13_1
         title: RIO Education - Upgrade to v3.13.1
