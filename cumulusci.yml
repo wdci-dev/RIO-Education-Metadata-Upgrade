@@ -787,7 +787,7 @@ plans:
             2:
                 task: install_managed
                 options:
-                    version: 3.11.9
+                    version: 3.11.10
                     version_number: 04t3u000003CQgD
                     security_type: NONE
                 ui_options:
