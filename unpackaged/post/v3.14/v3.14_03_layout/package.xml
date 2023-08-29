@@ -5,6 +5,7 @@
         <members>rio_ed__Grade_Setting__c-rio_ed__RIOEducation Grade Setting Layout</members>
         <members>rio_ed__PE_Discipline_Requirement__c-rio_ed__RIOEducation PE Discipline Requirement %28Group%29 Layout</members>
         <members>rio_ed__Study_Offering__c-rio_ed__RIOEducation Study Offering Layout</members>
+        <members>rio_ed__Study_Registration__c-rio_ed__RIOEducation Community Registration Layout</members>
         <members>rio_ed__Study_Registration__c-rio_ed__RIOEducation Registration Layout</members>
         <name>Layout</name>
     </types>
