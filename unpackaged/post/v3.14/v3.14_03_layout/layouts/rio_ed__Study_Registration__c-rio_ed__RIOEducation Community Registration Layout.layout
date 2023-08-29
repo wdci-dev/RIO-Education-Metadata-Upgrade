@@ -21,19 +21,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Study_Offering__c</field>
+                <field>rio_ed__Study_Offering__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Contact__c</field>
+                <field>rio_ed__Contact__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Status__c</field>
+                <field>rio_ed__Status__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Study_Credit__c</field>
+                <field>rio_ed__Study_Credit__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -47,17 +47,17 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Enrollment_Date__c</field>
+                <field>rio_ed__Enrollment_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Waitlist_Date__c</field>
+                <field>rio_ed__Waitlist_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Withdrawn_Date__c</field>
+                <field>rio_ed__Withdrawn_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
