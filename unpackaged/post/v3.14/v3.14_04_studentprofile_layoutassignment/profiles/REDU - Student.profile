@@ -5,7 +5,7 @@
         <layout>rio_ed__Announcement__c-rio_ed__RIOEducation Community Announcement Layout</layout>
     </layoutAssignments>
 	<layoutAssignments>
-        <layout>rio_ed__Study_Registration__c-rio_ed__RIOEducation Community Study Registration Layout</layout>
+        <layout>rio_ed__Study_Registration__c-rio_ed__RIOEducation Community Registration Layout</layout>
     </layoutAssignments>
     
 </Profile>
