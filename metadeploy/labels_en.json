@@ -567,6 +567,34 @@
         "RIO Education v3.14 - Student Profile Layout Assignment": {
             "message": "RIO Education v3.14 - Student Profile Layout Assignment",
             "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Check Transfer Credit Course ID": {
+            "message": "RIO Education v3.14.1 - Check Transfer Credit Course ID",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Field Tracking": {
+            "message": "RIO Education v3.14.1 - Field Tracking",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Picklist": {
+            "message": "RIO Education v3.14.1 - Picklist",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Layout": {
+            "message": "RIO Education v3.14.1 - Layout",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Faculty Profile Layout Assignment": {
+            "message": "RIO Education v3.14.1 - Faculty Profile Layout Assignment",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Platform Faculty Profile Layout Assignment": {
+            "message": "RIO Education v3.14.1 - Platform Faculty Profile Layout Assignment",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.14.1 - Student Profile Layout Assignment": {
+            "message": "RIO Education v3.14.1 - Student Profile Layout Assignment",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -836,6 +864,12 @@
     "plan:v3.14": {
         "title": {
             "message": "RIO Education - Upgrade to v3.14",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.14.1": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.14.1",
             "description": "title of installation plan"
         }
     }
