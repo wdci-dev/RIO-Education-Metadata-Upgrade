@@ -1137,3 +1137,58 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.14.4
+    
+    v3.15:
+        slug: v3_15
+        title: RIO Education - Upgrade to v3.15
+        tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed' not in tasks.get_installed_packages()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
+            - when: "not tasks.check_lws_enabled()"
+              action: error
+              message: "Please enable Lightning Web Security in your org prior to installing."
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.15 - Check Transfer Credit Course ID
+            2:
+                task: install_managed
+                options:
+                    version: 3.15
+                    version_number: 04t3u000002zov8
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.15
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.15
+                    unmanaged: False
+                ui_options:
+                    v3.15_01_layout:
+                        name: RIO Education v3.15 - Layout
+                        is_required: False
+                        is_recommended: False
+                    v3.15_02_recordtype:
+                        name: RIO Education v3.15 - Record Type
+                        is_required: False
+                        is_recommended: False
+                    v3.15_03_profiles:
+                        name: RIO Education v3.15 - Profiles
+                        is_required: False
+                        is_recommended: False
+                    v3.15_04_study_rules_automation:
+                        name: RIO Education v3.15 - Study Rules Automation
+                        is_required: False
+                        is_recommended: False
