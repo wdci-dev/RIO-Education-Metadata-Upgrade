@@ -1188,7 +1188,3 @@ plans:
                         name: RIO Education v3.15 - Profiles
                         is_required: False
                         is_recommended: False
-                    v3.15_04_study_rules_automation:
-                        name: RIO Education v3.15 - Study Rules Automation
-                        is_required: False
-                        is_recommended: False
