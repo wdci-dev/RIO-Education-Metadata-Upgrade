@@ -639,6 +639,14 @@
         "RIO Education v3.15.2 - Check Transfer Credit Course ID": {
             "message": "RIO Education v3.15.2 - Check Transfer Credit Course ID",
             "description": "title of installation step"
+        },
+        "RIO Education v3.17 - Check Transfer Credit Course ID": {
+            "message": "RIO Education v3.17 - Check Transfer Credit Course ID",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.17 - Record Type": {
+            "message": "RIO Education v3.17 - Record Type",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -956,6 +964,12 @@
     "plan:v3.15.2": {
         "title": {
             "message": "RIO Education - Upgrade to v3.15.2",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.17": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.17",
             "description": "title of installation plan"
         }
     }
