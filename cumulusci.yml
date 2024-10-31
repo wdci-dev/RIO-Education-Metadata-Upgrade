@@ -1396,3 +1396,36 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.18.1
+    
+    v3.18.2:
+        slug: v3_18_2
+        title: RIO Education - Upgrade to v3.18.2
+        tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed' not in tasks.get_installed_packages()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
+            - when: "not tasks.check_lws_enabled()"
+              action: error
+              message: "Please enable Lightning Web Security in your org prior to installing."
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.18.2 - Check Transfer Credit Course ID
+            2:
+                task: install_managed
+                options:
+                    version: 3.18.2
+                    version_number: 04tKg000000XzLw
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.18.2
