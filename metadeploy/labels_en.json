@@ -727,6 +727,22 @@
         "RIO Education v3.20.3 - Check Transfer Credit Course ID": {
             "message": "RIO Education v3.20.3 - Check Transfer Credit Course ID",
             "description": "title of installation step"
+        },
+        "RIO Education v3.20 - Default Attendance Submission as Allow Partial": {
+            "message": "RIO Education v3.20 - Default Attendance Submission as Allow Partial",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.20.1 - Default Attendance Submission as Allow Partial": {
+            "message": "RIO Education v3.20.1 - Default Attendance Submission as Allow Partial",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.20.2 - Default Attendance Submission as Allow Partial": {
+            "message": "RIO Education v3.20.2 - Default Attendance Submission as Allow Partial",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.20.3 - Default Attendance Submission as Allow Partial": {
+            "message": "RIO Education v3.20.3 - Default Attendance Submission as Allow Partial",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
