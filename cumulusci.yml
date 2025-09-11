@@ -1836,7 +1836,7 @@ plans:
                         is_required: False
                         is_recommended: False
                     v3.20_02_default_attendance_submission_allow_partial:
-                        name: RIO Education v3.20 - Default Attendance Submission as Allow Partial
+                        name: RIO Education v3.20 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
     
@@ -1879,7 +1879,7 @@ plans:
                     unmanaged: False
                 ui_options:
                     v3.20.1_01_default_attendance_submission_allow_partial:
-                        name: RIO Education v3.20.1 - Default Attendance Submission as Allow Partial
+                        name: RIO Education v3.20.1 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
     
@@ -1922,7 +1922,7 @@ plans:
                     unmanaged: False
                 ui_options:
                     v3.20.2_01_default_attendance_submission_allow_partial:
-                        name: RIO Education v3.20.2 - Default Attendance Submission as Allow Partial
+                        name: RIO Education v3.20.2 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
     
@@ -1965,6 +1965,6 @@ plans:
                     unmanaged: False
                 ui_options:
                     v3.20.3_01_default_attendance_submission_allow_partial:
-                        name: RIO Education v3.20.3 - Default Attendance Submission as Allow Partial
+                        name: RIO Education v3.20.3 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
