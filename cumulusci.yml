@@ -1835,6 +1835,10 @@ plans:
                         name: RIO Education v3.20 - Picklist
                         is_required: False
                         is_recommended: False
+                    v3.20_02_default_attendance_submission_allow_partial:
+                        name: RIO Education v3.20 - Default Attendance Submission to Allow Partial
+                        is_required: False
+                        is_recommended: True
     
     v3.20.1:
         slug: v3_20_1
@@ -1868,6 +1872,16 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.20.1
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.20.1
+                    unmanaged: False
+                ui_options:
+                    v3.20.1_01_default_attendance_submission_allow_partial:
+                        name: RIO Education v3.20.1 - Default Attendance Submission to Allow Partial
+                        is_required: False
+                        is_recommended: True
     
     v3.20.2:
         slug: v3_20_2
@@ -1901,6 +1915,16 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.20.2
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.20.2
+                    unmanaged: False
+                ui_options:
+                    v3.20.2_01_default_attendance_submission_allow_partial:
+                        name: RIO Education v3.20.2 - Default Attendance Submission to Allow Partial
+                        is_required: False
+                        is_recommended: True
     
     v3.20.3:
         slug: v3_20_3
@@ -1934,3 +1958,13 @@ plans:
                     security_type: NONE
                 ui_options:
                     name: Install RIO Education 3.20.3
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.20.3
+                    unmanaged: False
+                ui_options:
+                    v3.20.3_01_default_attendance_submission_allow_partial:
+                        name: RIO Education v3.20.3 - Default Attendance Submission to Allow Partial
+                        is_required: False
+                        is_recommended: True
