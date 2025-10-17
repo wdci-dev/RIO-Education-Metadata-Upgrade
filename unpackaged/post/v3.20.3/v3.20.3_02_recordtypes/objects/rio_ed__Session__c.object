@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>rio_ed__Class</fullName>
+        <active>true</active>
+		<description>Represents a class session record</description>
+        <label>Class</label>
+        <picklistValues>
+            <picklist>Attendance_Submission__c</picklist>
+            <values>
+                <fullName>Allow Partial</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Require All</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>rio_ed__Template</fullName>
+        <active>true</active>
+		<description>Represents a session template record, to be used in the template builder</description>
+        <label>Template</label>
+        <picklistValues>
+            <picklist>Attendance_Submission__c</picklist>
+            <values>
+                <fullName>Allow Partial</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Require All</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+	<recordTypes>
+        <fullName>rio_ed__Standalone</fullName>
+        <active>true</active>
+		<description>Represents a session that is NOT related to any courses</description>
+        <label>Standalone</label>
+        <picklistValues>
+            <picklist>Attendance_Submission__c</picklist>
+            <values>
+                <fullName>Allow Partial</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Require All</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
