@@ -6,7 +6,7 @@
 		<description>Represents a class session record</description>
         <label>Class</label>
         <picklistValues>
-            <picklist>Attendance_Submission__c</picklist>
+            <picklist>rio_ed__Attendance_Submission__c</picklist>
             <values>
                 <fullName>Allow Partial</fullName>
                 <default>true</default>
@@ -23,7 +23,7 @@
 		<description>Represents a session template record, to be used in the template builder</description>
         <label>Template</label>
         <picklistValues>
-            <picklist>Attendance_Submission__c</picklist>
+            <picklist>rio_ed__Attendance_Submission__c</picklist>
             <values>
                 <fullName>Allow Partial</fullName>
                 <default>true</default>
@@ -40,7 +40,7 @@
 		<description>Represents a session that is NOT related to any courses</description>
         <label>Standalone</label>
         <picklistValues>
-            <picklist>Attendance_Submission__c</picklist>
+            <picklist>rio_ed__Attendance_Submission__c</picklist>
             <values>
                 <fullName>Allow Partial</fullName>
                 <default>true</default>
