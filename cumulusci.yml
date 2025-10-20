@@ -2022,7 +2022,7 @@ plans:
                     v3.21_1_admin:
                         name: RIO Education v3.21 - Admin Profile
                         is_required: False
-                        is_recommended: True
+                        is_recommended: False
                     v3.21_2_layouts:
                         name: RIO Education v3.21 - Layouts
                         is_required: False
