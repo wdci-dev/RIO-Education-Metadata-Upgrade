@@ -162,7 +162,7 @@
         <fields>rio_ed__Record_Id__c</fields>
         <fields>rio_ed__Reference__c</fields>
         <fields>hed__Error_Type__c</fields>
-        <relatedList>hed__Error__c.Job_Queue__c</relatedList>
+        <relatedList>hed__Error__c.rio_ed__Job_Queue__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
