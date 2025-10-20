@@ -743,6 +743,30 @@
         "RIO Education v3.20.3 - Default Attendance Submission to Allow Partial": {
             "message": "RIO Education v3.20.3 - Default Attendance Submission to Allow Partial",
             "description": "title of installation step"
+        },
+        "RIO Education v3.20.1 - Record Types": {
+            "message": "RIO Education v3.20.1 - Record Types",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.20.2 - Record Types": {
+            "message": "RIO Education v3.20.2 - Record Types",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.20.3 - Record Types": {
+            "message": "RIO Education v3.20.3 - Record Types",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.21 - Check Transfer Credit Course ID": {
+            "message": "RIO Education v3.21 - Check Transfer Credit Course ID",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.21 - Admin Profile": {
+            "message": "RIO Education v3.21 - Admin Profile",
+            "description": "title of installation step"
+        },
+        "RIO Education v3.21 - Layouts": {
+            "message": "RIO Education v3.21 - Layouts",
+            "description": "title of installation step"
         }
     },
     "plan:v2.3": {
@@ -1180,6 +1204,12 @@
     "plan:v3.20.3": {
         "title": {
             "message": "RIO Education - Upgrade to v3.20.3",
+            "description": "title of installation plan"
+        }
+    },
+    "plan:v3.21": {
+        "title": {
+            "message": "RIO Education - Upgrade to v3.21",
             "description": "title of installation plan"
         }
     }

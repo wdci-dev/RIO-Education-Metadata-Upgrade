@@ -1882,6 +1882,10 @@ plans:
                         name: RIO Education v3.20.1 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
+                    v3.20.1_02_recordtypes:
+                        name: RIO Education v3.20.1 - Record Types
+                        is_required: False
+                        is_recommended: False
     
     v3.20.2:
         slug: v3_20_2
@@ -1925,6 +1929,10 @@ plans:
                         name: RIO Education v3.20.2 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
+                    v3.20.2_02_recordtypes:
+                        name: RIO Education v3.20.2 - Record Types
+                        is_required: False
+                        is_recommended: False
     
     v3.20.3:
         slug: v3_20_3
@@ -1968,3 +1976,54 @@ plans:
                         name: RIO Education v3.20.3 - Default Attendance Submission to Allow Partial
                         is_required: False
                         is_recommended: True
+                    v3.20.3_02_recordtypes:
+                        name: RIO Education v3.20.3 - Record Types
+                        is_required: False
+                        is_recommended: False
+    
+    v3.21:
+        slug: v3_21
+        title: RIO Education - Upgrade to v3.21
+        tier: additional
+        checks:
+            - when: "not tasks.check_my_domain_active()"
+              action: error
+              message: "Please enable My Domain in your org prior to installing."
+            - when: "'hed' not in tasks.get_installed_packages()"
+              action: error
+              message: "Education Data Architecture (EDA) is not installed. Please install EDA before installing RIO Education."
+            - when: "not tasks.check_communities_enabled()"
+              action: error
+              message: "Please enable Communities in your org prior to installing."
+            - when: "not tasks.check_lws_enabled()"
+              action: error
+              message: "Please enable Lightning Web Security in your org prior to installing."
+        steps:
+            1:
+                task: execute_anon
+                options:
+                    path: apex/check_tc_course_id.txt
+                ui_options:
+                    name: RIO Education v3.21 - Check Transfer Credit Course ID
+            2:
+                task: install_managed
+                options:
+                    version: 3.21
+                    version_number: 04tKg000000cCNL
+                    security_type: NONE
+                ui_options:
+                    name: Install RIO Education 3.21
+            3:
+                task: deploy_post
+                options:
+                    path: unpackaged/post/v3.21
+                    unmanaged: False
+                ui_options:
+                    v3.21_1_admin:
+                        name: RIO Education v3.21 - Admin Profile
+                        is_required: False
+                        is_recommended: False
+                    v3.21_2_layouts:
+                        name: RIO Education v3.21 - Layouts
+                        is_required: False
+                        is_recommended: False
